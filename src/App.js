@@ -1,6 +1,6 @@
 import Layout from "./layout";
 import Store from "./pages/store";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./Components/Header";
 
 function App() {

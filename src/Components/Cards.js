@@ -17,7 +17,7 @@ function Cards({ props }) {
           </span>
         </div>
         <h1 class="font-semibold capitalize">
-          {props.category == "women's clothing" ? "Women's" : props.category}
+          {props.category === "women's clothing" ? "Women's" : props.category}
         </h1>
       </div>
       <div class="p-3 flex justify-center items-center">

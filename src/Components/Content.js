@@ -20,7 +20,7 @@ function Content() {
       .catch((err) => {
         console.log(err);
       });
-  }, [limit]);
+  }, [limit,setProducts]);
 
   const handleLoadMore = () => {
     setLimit(limit + 8);
